@@ -2,7 +2,7 @@
   "name": "ts-spike",
   "version": "1.0.0",
   "description": "Spikes of Typescript Code",
-  "main": "index.js",
+  "main": "packages/backend/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
