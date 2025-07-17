@@ -2,16 +2,14 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "typescript",
-			"tsconfig": "tsconfig.json",
+			"label": "tsc: build",
+			"type": "shell",
+			"command": "npx tsc", // This ensures `tsc` is run via npx
+			"group": "build",
 			"problemMatcher": [
 				"$tsc"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"label": "tsc: build - tsconfig.json"
+			"detail": "Compiles TypeScript files to JavaScript"
 		}
 	]
 }

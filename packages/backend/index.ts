@@ -1,5 +1,2 @@
-// src/index.ts
-const greeting: string = "Hello, TypeScript!";
+const greeting: string = "Hello, Node!!!!!";
 console.log(greeting);
-
-//packages/index.ts
