@@ -15,7 +15,9 @@
       "program": "${workspaceFolder}/dist/index.js",
       "outFiles": [
         "${workspaceFolder}/dist/**/*.js"
-      ]
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }

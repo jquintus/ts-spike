@@ -9,7 +9,15 @@
 			"problemMatcher": [
 				"$tsc"
 			],
-			"detail": "Compiles TypeScript files to JavaScript"
+			"detail": "Compiles TypeScript files to JavaScript",
+			"presentation": {
+				"echo": false,
+				"reveal": "silent",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false
+			}
 		}
 	]
 }
